@@ -7,7 +7,7 @@ public class Leetcode_2375 {
     public String smallestNumber(String pattern) {
         int n = pattern.length();
         StringBuilder str = new StringBuilder();
-        Stack<Integer> st = new Stack();
+        Stack<Integer> st = new Stack<>();
 
         for(int i = 0; i < n; i ++) {
             st.push(i+1);

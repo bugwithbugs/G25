@@ -38,16 +38,16 @@ public class ReverseStack {
 
     public static void main(String[] args) {
         Stack<Integer> st = new Stack<>();
-        Stack<Integer> reversedStack;
         st.push(10);
         st.push(20);
         st.push(30);
         st.push(40);
         st.push(50);
-
+        
         System.out.println(st);
-
+        
         /* Uncomment this for brute force solution 
+        Stack<Integer> reversedStack;
         reversedStack = reverseUsingAnotherStack(st);
 
         System.out.println(reversedStack); */
